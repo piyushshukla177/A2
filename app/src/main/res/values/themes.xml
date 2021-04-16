@@ -22,4 +22,27 @@
     <style name="Theme.A2.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="Theme.A2.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+
+
+
+    <style name="txt_gray_small">
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:textColorHint">@color/gray</item>
+        <item name="android:textSize">@dimen/font_7</item>
+    </style>
+
+    <style name="txt_gray_light_small">
+        <item name="android:textColor">@color/gray_draw</item>
+        <item name="android:textColorHint">@color/gray_draw</item>
+        <item name="android:textSize">@dimen/font_7</item>
+    </style>
+
+    <style name="txt_gray_light_micro">
+        <item name="android:textColor">@color/gray_draw</item>
+        <item name="android:textColorHint">@color/gray_draw</item>
+        <item name="android:textSize">@dimen/font_5</item>
+    </style>
 </resources>

@@ -13,4 +13,21 @@
     <color name="light_white">#FAFBF6</color>
     <color name="gray">#939496</color>
     <color name="bg">#EFF2FB</color>
+    <color name="gray_dark_main">#666666</color>
+    <color name="gray_light">#b1b1b1</color>
+
+
+    <color name="gray_table">#88d1d1d1</color>
+    <color name="star_color">#cccccc</color>
+    <color name="gray_dark">#8E8E8E</color>
+    <color name="yello">#ffcc00</color>
+    <color name="gray_very_dark">#737272</color>
+    <color name="red">#FF0000</color>
+    <color name="black_strok">#494949</color>
+    <color name="gray_strok">#D3D3D3</color>
+    <color name="gray_draw">#8E8E8E</color>
+    <color name="green">#FF009900</color>
+    <color name="oranges">#FF9300</color>
+    <color name="reds">#FF2600</color>
+    <color name="grayshade">#80808080</color>
 </resources>
