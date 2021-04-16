@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">a²</string>
+    <string name="title_activity_dashboard">DashboardActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="Sign_into_your_account">अपने अकाउंट में साइन इन करें ?</string>
+    <string name="View_Your_Wish_list">अपनी इच्छा सूची देखें</string>
+    <string name="Find_Reorder_past_Purchase">खोजें &amp; पिछले खरीद के आदेश</string>
+    <string name="Track_your_Purchase">अपनी खरीद को ट्रैक करें</string>
+    <string name="Already_a_customer_Sign_In">पहले से ही एक ग्राहक ? साइन इन करें</string>
+    <string name="New_to_a_Create_an_account">a² के लिए नया? खाता बनाएं</string>
+    <string name="Skip_sign_In">साइन इन छोड़ें</string>
+    <string name="Continue">जारी रखें</string>
+    <string name="Password_Assistance">पासवर्ड सहायता</string>
+    <string name="Your_email_or_mobile_phone_number">आपका ईमेल या मोबाइल फ़ोन नंबर</string>
+    <string name="Enter_the_email_address_or_mobile_phone_number_associated_with_your_Amazon_Account">अपने a² खाते से संबद्ध ईमेल पता या मोबाइल फ़ोन नंबर दर्ज करें</string>
+
+
+    <string name="Welcome">स्वागत हे</string>
+    <string name="Create_an_Account">खाता बनाएं</string>
+    <string name="Sign_In">साइन इन करें</string>
+    <string name="Mobile_Number">मोबाइल नंबर</string>
+    <string name="Password">पासवर्ड</string>
+    <string name="Forget_Password">पासवर्ड भूल गए ?</string>
+    <string name="Name">नाम</string>
+    <string name="Set_Password">पासवर्ड सेट करें</string>
+    <string name="Email_Optional">ईमेल वैकल्पिक)</string>
+    <string name="Verify_mobile_number">मोबाइल नंबर सत्यापित करें</string>
+</resources>

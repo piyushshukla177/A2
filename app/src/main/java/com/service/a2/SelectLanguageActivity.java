@@ -9,6 +9,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.view.WindowManager;
 
+import com.util.LocaleHelper;
+import com.util.PrefsHelper;
+
 public class SelectLanguageActivity extends AppCompatActivity {
 
     Context context;
@@ -17,7 +20,7 @@ public class SelectLanguageActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-//        getWindow().setFlags(WindowManager.LayoutParams.FLAG_SECURE, WindowManager.LayoutParams.FLAG_SECURE);
+//      getWindow().setFlags(WindowManager.LayoutParams.FLAG_SECURE, WindowManager.LayoutParams.FLAG_SECURE);
         setContentView(R.layout.activity_select_language);
 
         init();
@@ -36,6 +39,7 @@ public class SelectLanguageActivity extends AppCompatActivity {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
+                        setLanguage("en", "english");
                         Intent intent = new Intent(context, WelcomeActivity.class);
                         startActivity(intent);
                     }
@@ -45,6 +49,7 @@ public class SelectLanguageActivity extends AppCompatActivity {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
+                        setLanguage("hi", "hindi");
                         Intent intent = new Intent(context, WelcomeActivity.class);
                         startActivity(intent);
                     }
@@ -86,5 +91,16 @@ public class SelectLanguageActivity extends AppCompatActivity {
                     }
                 }
         );
+    }
+
+    public void setLanguage(String lang_code, String lang_name) {
+        PrefsHelper.putString(this, "lang_code", lang_code);
+        PrefsHelper.putString(this, "lang_name", lang_name);
+
+        LocaleHelper.setLocale(SelectLanguageActivity.this, lang_code);
+
+        Intent intent = new Intent(SelectLanguageActivity.this, SelectLanguageActivity.class);
+        startActivity(intent);
+        finish();
     }
 }

@@ -31,7 +31,7 @@
             android:layout_gravity="center"
             android:layout_marginTop="@dimen/_30sdp"
             android:fontFamily="@font/poppins_regular"
-            android:text="Sign in to your account"
+            android:text="@string/Sign_into_your_account"
             android:textColor="@color/black"
             android:textSize="@dimen/_15sdp"
             android:textStyle="bold" />
@@ -42,7 +42,7 @@
             android:layout_marginLeft="@dimen/_20sdp"
             android:layout_marginTop="@dimen/_10sdp"
             android:fontFamily="@font/roboto_regular"
-            android:text="View Your Wish list"
+            android:text="@string/View_Your_Wish_list"
             android:textColor="@color/black_light"
             android:textSize="@dimen/_12sdp" />
 
@@ -52,7 +52,7 @@
             android:layout_marginLeft="@dimen/_20sdp"
             android:layout_marginTop="@dimen/_10sdp"
             android:fontFamily="@font/roboto_regular"
-            android:text="Find &amp; Re-order past Purchase"
+            android:text="@string/Find_Reorder_past_Purchase"
             android:textColor="@color/black_light"
             android:textSize="@dimen/_12sdp" />
 
@@ -62,7 +62,7 @@
             android:layout_marginLeft="@dimen/_20sdp"
             android:layout_marginTop="@dimen/_10sdp"
             android:fontFamily="@font/roboto_regular"
-            android:text="Track your Purchase"
+            android:text="@string/Track_your_Purchase"
             android:textColor="@color/black_light"
             android:textSize="@dimen/_12sdp" />
 
@@ -74,7 +74,7 @@
             android:layout_marginTop="@dimen/_30sdp"
             android:layout_marginRight="@dimen/_10sdp"
             android:background="@drawable/background_yellow_shape"
-            android:text="Already a customer ? Sign In"
+            android:text="@string/Already_a_customer_Sign_In"
             android:textAllCaps="false"
             android:textColor="@color/black"
             android:textSize="@dimen/_10sdp"
@@ -88,7 +88,7 @@
             android:layout_marginTop="@dimen/_10sdp"
             android:layout_marginRight="@dimen/_10sdp"
             android:background="@drawable/corner_round_white_background_btn_shape"
-            android:text="New to a² ? Create an account"
+            android:text="@string/New_to_a_Create_an_account"
             android:textAllCaps="false"
             android:textColor="@color/black"
             android:textSize="@dimen/_10sdp"
@@ -102,7 +102,7 @@
             android:layout_marginTop="@dimen/_10sdp"
             android:layout_marginRight="@dimen/_10sdp"
             android:background="@drawable/corner_round_white_background_btn_shape"
-            android:text="Skip sign In"
+            android:text="@string/Skip_sign_In"
             android:textAllCaps="false"
             android:textColor="@color/black"
             android:textSize="@dimen/_10sdp"

@@ -2,18 +2,23 @@ package com.service.a2;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.RadioButton;
 import android.widget.TextView;
+
+import com.util.LocaleHelper;
 
 public class RegistrationActivity extends AppCompatActivity {
 
     LinearLayout registration_linear, signin_linear;
     RadioButton create_an_account_radio_btn, signin_radio_btn;
     TextView forget_password_tv;
+    Button signin_btn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,6 +34,7 @@ public class RegistrationActivity extends AppCompatActivity {
         create_an_account_radio_btn = findViewById(R.id.create_an_account_radio_btn);
         signin_radio_btn = findViewById(R.id.signin_radio_btn);
         forget_password_tv = findViewById(R.id.forget_password_tv);
+        signin_btn = findViewById(R.id.signin_btn);
 
         Intent intent = getIntent();
         create_an_account_radio_btn.setOnClickListener(
@@ -74,6 +80,21 @@ public class RegistrationActivity extends AppCompatActivity {
                     }
                 }
         );
+        signin_btn.setOnClickListener(
+                new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Intent intent=new Intent(RegistrationActivity.this,DashboardActivity.class);
+                        startActivity(intent);
+                    }
+                }
+        );
 
+
+    }
+
+    @Override
+    protected void attachBaseContext(Context base) {
+        super.attachBaseContext(LocaleHelper.onAttach(base));
     }
 }

@@ -1,3 +1,40 @@
 <resources>
     <string name="app_name">a²</string>
+    <string name="title_activity_dashboard">DashboardActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="Sign_into_your_account">Sign in to your account</string>
+    <string name="View_Your_Wish_list">View Your Wish list</string>
+    <string name="Find_Reorder_past_Purchase">Find &amp; Re-order past Purchase</string>
+    <string name="Track_your_Purchase">Track your Purchase</string>
+    <string name="Already_a_customer_Sign_In">Already a customer ? Sign In</string>
+    <string name="New_to_a_Create_an_account">New to a² ? Create an account</string>
+    <string name="Skip_sign_In">Skip sign In</string>
+    <string name="Continue">Continue</string>
+    <string name="Welcome">Welcome</string>
+    <string name="Create_an_Account">Create an Account</string>
+    <string name="Sign_In">Sign In</string>
+    <string name="Mobile_Number">Mobile Number</string>
+    <string name="Password">Password</string>
+    <string name="Forget_Password">Forget Password ?</string>
+    <string name="Password_Assistance">Password Assistance</string>
+    <string name="Name">Name</string>
+    <string name="Set_Password">Set Password</string>
+    <string name="Email_Optional">Email (Optional)</string>
+    <string name="Verify_mobile_number">Verify mobile number</string>
+    <string name="Your_email_or_mobile_phone_number">Your email or mobile phone number</string>
+    <string name="Enter_the_email_address_or_mobile_phone_number_associated_with_your_Amazon_Account">Enter the email address or mobile phone number associated with your a² Account</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
 </resources>

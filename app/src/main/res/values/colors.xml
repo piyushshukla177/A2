@@ -12,4 +12,5 @@
     <color name="yellow">#FFA64A</color>
     <color name="light_white">#FAFBF6</color>
     <color name="gray">#939496</color>
+    <color name="bg">#EFF2FB</color>
 </resources>

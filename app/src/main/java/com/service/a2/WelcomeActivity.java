@@ -9,6 +9,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 
+import com.util.LocaleHelper;
+
 public class WelcomeActivity extends AppCompatActivity {
 
     Context context;
@@ -57,6 +59,21 @@ public class WelcomeActivity extends AppCompatActivity {
                     }
                 }
         );
+        skip_sign_in_btn.setOnClickListener(
+                new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Intent intent = new Intent(WelcomeActivity.this, DashboardActivity.class);
+//                        intent.putExtra("type", "reg");
+                        startActivity(intent);
+                    }
+                }
+        );
+    }
+
+    @Override
+    protected void attachBaseContext(Context base) {
+        super.attachBaseContext(LocaleHelper.onAttach(base));
     }
 }
 
